@@ -1,16 +1,8 @@
-# laundryappv2
+# Laundry Management App
 
-A new Flutter project.
+A FlutterFire project with both client and admin sides.
+NOTE: The application does not work without a firebase connection.
 
-## Getting Started
+To connect the app to a firestore DB, simply add your google-services.json file in Android\App
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To enable notifications, insert your FCM key in lib\Widgets\order_cards.dart
